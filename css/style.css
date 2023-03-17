@@ -1,0 +1,127 @@
+/***cobtainer***/
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 5px 5px 10px 10px #E6EBFE;
+    }
+
+/***body***/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/***circle***/
+
+.circle {
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Hanken Grotesk";
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+/***main components***/
+
+#left {
+    width:360px;
+    height:500px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+   
+}
+
+#right {
+    width:360px;
+    height:500px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;    
+
+}
+
+/***button***/
+
+button {
+    padding: 15px 125px;
+    border-radius: 50px;
+    background-color: #303B59;
+    color: white;
+    font-weight: 700;
+    font-family: "Hanken Grotesk";
+    margin-top: 50px;
+        
+}
+
+/***text***/
+
+h1 {
+    text-align: center;
+    color: white ;
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 0.7;
+    padding: 15%;
+}
+h2 {
+    text-align: center;
+    color: white ;
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 25px;
+    }
+
+.number76 {
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.score {
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.sum {
+    color: #2E3350;
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 12%;
+    text-align: left;
+}
+
+/***table***/
+
+table {
+    line-height: 300%;
+    width: 85%;
+    text-align: left;
+    font-weight: 700;
+    font-family: "Hanken Grotesk";
+    margin: auto;
+    
+
+}
+
